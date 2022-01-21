@@ -181,8 +181,15 @@ a {
   justify-content: center;
   width: 64px;
 }
+.icon-container--small {
+  height: 50px;
+  width: 50px;
+}
 .icon-container--accent {
   background: var(--color-accent);
+}
+.icon-container--collapsible {
+  background: #393939;
 }
 
 /* Buttons */
@@ -517,4 +524,32 @@ a {
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
   }
+}
+
+/* Collapsibles */
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+.collapsible__heading {
+  margin: 0;
+  font-size: 3rem;
+}
+.collapsible__chevron {
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+.collapsible__content {
+  max-height: 0;
+  transition: all 0.3s;
+  overflow: hidden;
+  opacity: 0;
+}
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(0);
+}
+.collapsible--expanded .collapsible__content {
+  display: block;
+  max-height: 100vh;
+  opacity: 1;
 }
