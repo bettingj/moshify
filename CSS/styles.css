@@ -20,36 +20,30 @@
 html {
   font-size: 62.5%;
 }
-
 body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--color-body);
   font-size: 2.4rem;
   line-height: 1.5;
 }
-
 h1,
 h2,
 h3 {
   color: var(--color-headings);
   line-height: 1.1;
 }
-
 h1 {
   font-size: 7rem;
   margin-bottom: 0rem;
 }
-
 h2 {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
-
 h3 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
-
 p {
   margin-top: 0;
 }
@@ -72,20 +66,17 @@ p {
 a {
   text-decoration: none;
 }
-
 .link-arrow {
   color: var(--color-accent);
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
 }
-
 .link-arrow::after {
   content: "-->";
   margin-left: 5px;
   transition: margin 0.25s;
 }
-
 .link-arrow:hover::after {
   margin-left: 10px;
 }
@@ -102,17 +93,14 @@ a {
   padding: 0.5rem 2rem;
   white-space: nowrap;
 }
-
 .badge--primary {
   background: var(--color-primary);
   color: #fff;
 }
-
 .badge--secondary {
   background: var(--color-secondary);
   color: #fff;
 }
-
 .badge--small {
   font-size: 1.6rem;
   padding: 0.5rem 1.5rem;
@@ -134,17 +122,14 @@ a {
   padding-left: 0;
   color: var(--color-headings);
 }
-
 .list--inline .list__item {
   display: inline-block;
   margin-right: 2rem;
 }
-
 .list--tick {
   list-style-image: url(../Images/tick.svg);
   padding-left: 3rem;
 }
-
 .list--tick .list__item {
   padding-left: 0.5rem;
   margin-bottom: 1rem;
@@ -161,7 +146,6 @@ a {
   width: 40px;
   height: 40px;
 }
-
 .icon--primary {
   fill: var(--color-primary);
 }
@@ -206,7 +190,6 @@ a {
   margin: 1rem 0;
   outline: 0;
 }
-
 .btn--dark {
   background: none;
   color: var(--color-headings);
@@ -216,7 +199,6 @@ a {
   background: var(--color-headings);
   color: white;
 }
-
 .btn--secondary {
   color: white;
   background: var(--color-secondary);
@@ -224,7 +206,6 @@ a {
 .btn--secondary:hover {
   background: #00c8eb;
 }
-
 .btn--accent {
   color: white;
   background: var(--color-accent);
@@ -232,7 +213,6 @@ a {
 .btn--accent:hover {
   background: #e42e00;
 }
-
 .btn--wide {
   padding-left: 6rem;
   padding-right: 6rem;
@@ -267,7 +247,6 @@ a {
 ::placeholder {
   color: #cdcbd7;
 }
-
 .input-group {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
@@ -305,7 +284,6 @@ a {
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
 }
-
 .card--primary .card__header {
   background: var(--color-primary);
   color: white;
@@ -314,7 +292,6 @@ a {
   background: var(--color-secondary);
   color: white;
 }
-
 .card--primary .badge--primary {
   background: #126de4;
 }
@@ -351,7 +328,6 @@ a {
   margin-bottom: 2rem;
   letter-spacing: 0.5px;
 }
-
 .plan--popular .card {
   position: relative;
 }
@@ -604,7 +580,6 @@ a {
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
   padding-bottom: calc(var(--padding-vertical) + 6rem);
 }
-
 .container {
   max-width: 1140px;
   margin: 0 auto;
