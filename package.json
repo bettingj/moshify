@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bettingj/Moshify.git"
+    "url": "git+https://github.com/bettingj/moshify.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bettingj/Moshify/issues"
+    "url": "https://github.com/bettingj/moshify/issues"
   },
-  "homepage": "https://github.com/bettingj/Moshify#readme",
+  "homepage": "https://github.com/bettingj/moshify#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
